@@ -4,6 +4,8 @@ import { api } from '../services/api';
 
 import { MovieCard } from "./MovieCard";
 
+import '../styles/content.scss';
+
 interface GenreResponseProps {
   id: number;
   name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
